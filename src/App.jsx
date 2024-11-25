@@ -1,13 +1,13 @@
 import React from "react";
 import { match } from "ts-pattern";
 
-import { DraggableList } from "./components/DraggableList";
-import { TextEditor } from "./components/TextEditor";
-import { ImageEditor } from "./components/ImageEditor";
-import { CarouselEditor } from "./components/CarouselEditor";
-import { PreviewPane } from "./components/PreviewPane";
-import { useEditor } from "./hooks/useEditor";
 import "./App.css";
+import { CarouselEditor } from "./components/CarouselEditor";
+import { DraggableList } from "./components/DraggableList";
+import { ImageEditor } from "./components/ImageEditor";
+import { PreviewPane } from "./components/PreviewPane";
+import { TextEditor } from "./components/TextEditor";
+import { useEditor } from "./hooks/useEditor";
 
 const App = () => {
   const {
@@ -75,8 +75,8 @@ const App = () => {
               defaultProps: {
                 images: [
                   "https://via.placeholder.com/300x200/FF5733/FFFFFF?text=Slide+1",
-                  "https://via.placeholder.com/300x200/33FF57/FFFFFF?text=Slide+2",
-                  "https://via.placeholder.com/300x200/5733FF/FFFFFF?text=Slide+3",
+                  "https://via.placeholder.com/300x200/5733FF/FFFFFF?text=Slide+2",
+                  "https://via.placeholder.com/300x200/5733FF/FFFFFF?text=Slide+3"
                 ]
               },
               thumbnail: (
