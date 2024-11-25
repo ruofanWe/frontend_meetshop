@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.main {
+  flex: 1;
+  padding: 10px;
+}
