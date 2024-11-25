@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.4de03561.css","mappings":"AAAA,KACE,YACF,CAEA,SAEE,2BAA4B,CAC5B,YAAa,CAFb,WAGF,CAEA,MACE,QAAO,CACP,YACF","sources":["App.css"],"sourcesContent":[".app {\n  display: flex;\n}\n\n.sidebar {\n  width: 300px;\n  border-right: 1px solid #ccc;\n  padding: 10px;\n}\n\n.main {\n  flex: 1;\n  padding: 10px;\n}\n"],"names":[],"sourceRoot":""}
